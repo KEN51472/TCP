@@ -15,6 +15,6 @@ again:
     if (n < 0 && errno == EINTR)
         goto again;
     else if (n < 0)
-         perror("read");
-        exit(1);
+        perror("read");
+    exit(1);
 }
