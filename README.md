@@ -46,3 +46,8 @@ undefined reference to `Socket(int, int, int)'
 <iostream>与头文件在编译时发生冲突  
   
 	打印内容使用printf代替cout，#include<cstdio>
+	
+
+更新
+---
+2022.05.20 新增客户端向服务端文件传输功能
